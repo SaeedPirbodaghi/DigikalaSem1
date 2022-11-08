@@ -1,0 +1,98 @@
+div.Body11-container{
+    width: var(--widthBody);
+    height: 404px;
+    border-radius: 16px;
+    margin: 24px auto 0 auto;
+    border: 1px solid var(--colorBorder);
+    padding: 16px 0;
+}
+div.Body11-container>div.title{
+    width: 100%;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+div.Body11-container>div.slider4{
+    width: 100%;
+    height: calc(100% - 44px);
+    padding: 28px 8px 0 8px;
+}
+div.Body11-container>div.title>div.more{
+    height: 100%;
+    padding-left: 16px;
+    box-sizing: content-box;
+    display: flex;
+    position: absolute;
+    left: 0;
+}
+div.Body11-container>div.title>div.text{
+    height: 100%;
+    display: flex;
+}
+div.Body11-container>div.title>div.text>h3{
+    font-family: yekan;
+    font-size: 21px;
+}
+div.Body11-container>div.title>div.text>svg{
+    margin-top: 10px;
+    margin-left: 8px;
+}
+div.Body11-container>div.title>div.more>a{
+    text-decoration: none;
+    font-family: yekan;
+    font-size: 16px;
+    color: var(--color-blue-primary);
+}
+div.Body11-container>div.slider4>div.swiper>div.swiper-wrapper>div.swiper-slide{
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+div.Body11-container>div.slider4>div.swiper>div.swiper-wrapper>div.swiper-slide>a{
+    width: 100%;
+    height: calc(100% / 3);
+    display: flex;
+    direction: rtl;
+    position: relative;
+    text-decoration: none;
+}
+div.Body11-container>div.slider4>div.swiper>div.swiper-wrapper>div.swiper-slide>a>p{
+    font-family: yekan;
+    font-size: 13px;
+    color: var(--color-neutral-700);
+    position: absolute;
+    right: 130px;
+    top: 50%;   
+    transform: translateY(-50%);
+    text-align: right;
+    
+}
+div.Body11-container>div.slider4>div.swiper>div.swiper-wrapper>div.swiper-slide>a>span{
+    display: flex;
+    line-height: 99px;
+    font-family: yekan;
+    margin-left: 12px;
+    color: var(--color-secondary-500);
+    font-weight: bold;
+    font-size: 30px;
+}
+div.Body11-container>div.slider4>div.swiper>div.swiper-wrapper>div.swiper-slide>a>img{
+    display: flex;
+    line-height: 99px;
+    width: 86px;
+    height: 86px;
+    position: relative;
+    top: calc((99px - 86px) / 2);
+    margin-left: 12px;
+}
+div.Body11-container>div.slider4>div.swiper>div.swiper-wrapper>div.swiper-slide>a::after{
+    content:"";
+    display: block;
+    width: 170px;
+    height: 1px;
+    background-color: var(--bgGray);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}

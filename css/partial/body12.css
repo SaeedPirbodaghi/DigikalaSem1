@@ -1,0 +1,19 @@
+div.body12-container{
+    width: var(--widthBody);
+    height: 163px;
+    border-radius: 16px;
+    margin: 24px auto 0 auto;
+}
+div.body12-container>a{
+    display: block;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}
+div.body12-container>a>img{
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}
+
+

@@ -1,0 +1,129 @@
+div.body9-container{
+    width: var(--widthBody);
+    height: 388px;
+    background-color: var(--color-plus-700);
+    border-radius: 16px;
+    margin: 24px auto 0 auto;
+    padding: 16px;
+    display: flex;
+}
+div.body9-container>div.content{
+    width: calc(100% - 384px);
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+div.body9-container>div.logo{
+    width: 384px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../images/plus-widget.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 24px;
+    margin-left: 12px;
+    background-position: bottom;
+    position: relative;
+}
+div.body9-container>div.content>div{
+    width: calc((100% / 2) - 2px);
+    height: 100%;
+    background-color: white;
+    border-radius: 8px 0 0 8px;
+    display: flex;
+    padding: 0 16px;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+div.body9-container>div.content>div:nth-of-type(2){
+    border-radius: 0 8px 8px 0;
+}
+div.body9-container>div.logo>a:nth-of-type(1){
+    display: block;
+    width: 100%;
+    text-align: right;
+    padding-right: 24px;
+}
+div.body9-container>div.logo>div{
+    width: 100%;
+    padding-right: 24px;
+    font-family: yekan;
+    text-align: right;
+    color: white;
+    font-size: 15px;
+    margin-top: 4px;
+}
+div.body9-container>div.logo>a:nth-of-type(2){
+    text-decoration: none;
+    width: 72px;
+    height: 26px;
+    border: 1px solid white;
+    border-radius: 8px;
+    margin-top: 12px;
+    padding: 4px 16px;
+    box-sizing: content-box;
+    color: white;
+    display: flex;
+    position: absolute;
+    right: 24px;
+    top: 100px;
+    justify-content: space-between;
+}
+div.body9-container>div.logo>a:nth-of-type(2)>span{
+    font-family: yekan;
+    font-size: 13px;
+}
+div.body9-container>div.logo>a:nth-of-type(2)>svg{
+    display: flex;
+    margin-top: 2px;
+}
+div.body9-container>div.content>div>div.title{
+    width: 100%;
+    height: 34px;
+    padding: 16px 0;
+    box-sizing: content-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 34px;
+}
+div.body9-container>div.content>div>div.title>div{
+    display: flex;
+}
+div.body9-container>div.content>div>div.title>div:nth-of-type(1)>span{
+    font-family: yekan;
+    color: var(--color-plus-primary);
+    font-size: 13px;
+}
+div.body9-container>div.content>div>div.title>div:nth-of-type(2)>h4{
+    font-family: yekan;
+    margin-right: 10px;
+    font-size: 16px;
+}
+div.body9-container>div.content>div>div.title>div:nth-of-type(1)>svg,div.body9-container>div.content>div>div.title>div:nth-of-type(2)>svg{
+    margin-top: 8px;
+}
+div.body9-container>div.content>div>div.pics{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+div.body9-container>div.content>div>div.pics>div.top,div.body9-container>div.content>div>div.pics>div.bot{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+}
+div.body9-container>div.content>div>div.pics>div.top>a,div.body9-container>div.content>div>div.pics>div.bot>a{
+    display: flex;
+}
+div.body9-container>div.content>div>div.pics>div.top>a>img,div.body9-container>div.content>div>div.pics>div.bot>a>img{
+    width: 116px;
+    height: 116px;
+}
+
+
+
+

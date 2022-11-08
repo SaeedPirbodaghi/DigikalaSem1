@@ -1,0 +1,41 @@
+div.PopularBrands-container{
+    width: var(--widthBody);
+    height: 224px;
+    margin: 24px auto 0 auto;
+    padding: 24px 0;
+    border: 1px solid var(--colorBorder);
+    border-radius: 16px;
+}
+div.PopularBrands-container>div.title{
+    height: 44px;
+    width: 100%;
+    text-align: center;
+    line-height: 40px;
+    position: relative;
+}
+div.PopularBrands-container>div.slider{
+    height: 118px;
+    width: 100%;
+    margin-top: 12px;
+}
+div.PopularBrands-container>div.title>h3{
+    display: inline-block;
+    font-family: yekan;
+    font-size: 21px;
+    margin-right: 8px;
+}
+div.PopularBrands-container>div.title>svg{
+    position: absolute;
+    top: calc(50% - 24px / 2);
+}
+div.swiper-slide#cells3{
+    padding: 4px 16px;
+    border-left: 0.5px solid var(--colorBorder);
+}
+div.swiper-slide#cells3>img{
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+}
+
+
